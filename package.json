@@ -1,0 +1,22 @@
+{
+  "name": "@deboertool/vo-precision",
+  "version": "0.0.1",
+  "description": "A value object for precision",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeBoerTool/vo-precision.git"
+  },
+  "author": "Daniel S. Deboer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeBoerTool/vo-precision/issues"
+  },
+  "homepage": "https://github.com/DeBoerTool/vo-precision#readme",
+  "dependencies": {
+    "@deboertool/value-object-interface": "0.0.2"
+  }
+}
