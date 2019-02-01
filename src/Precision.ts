@@ -1,9 +1,11 @@
-import PrecisionInterface from './Interfaces/Precision'
+import IPrecision from './IPrecision'
 
-export default class Precision implements PrecisionInterface {
-  private _value
+export default class Precision implements IPrecision 
+{
+  private _value: number
   
-  constructor (value: number) {
+  constructor (value: number) 
+  {
     if (!Number.isInteger(value)) {
       throw new TypeError('Precision value must be an integer.')
     }
@@ -11,7 +13,8 @@ export default class Precision implements PrecisionInterface {
     this._value = value
   }
 
-  value (): number {
+  value (): number 
+  {
     return this._value
   }
 }

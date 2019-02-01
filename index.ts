@@ -1,5 +1,9 @@
 import Precision from './src/Precision'
-import PrecisionInterface from './src/Interfaces/Precision'
+import IPrecision from './src/Precision'
 
-export { Precision, PrecisionInterface }
+export { 
+  Precision, 
+  IPrecision, 
+  IPrecision as PrecisionInterface, 
+}
 export default Precision
