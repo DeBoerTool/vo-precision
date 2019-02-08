@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/DeBoerTool/vo-precision#readme",
   "dependencies": {
-    "@deboertool/value-object-interface": "0.0.2",
-    "typescript": "^3.3.1"
+    "@deboertool/value-object-interface": "0.0.2"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
