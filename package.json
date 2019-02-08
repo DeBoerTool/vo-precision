@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/DeBoerTool/vo-precision#readme",
   "dependencies": {
-    "@deboertool/value-object-interface": "0.0.2"
+    "@deboertool/value-object-interface": "^0.3.4"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -28,9 +28,7 @@
     "mocha": "^5.2.0",
     "mocha-webpack": "^2.0.0-beta.0",
     "ts-loader": "^5.3.3",
-    "webpack": "^4.29.0"
-  },
-  "peerDependencies": {
+    "webpack": "^4.29.3",
     "typescript": "^3.2.4"
   }
 }
